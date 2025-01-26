@@ -27,14 +27,31 @@
 
     <section class="home" id="home">
         <div class="home-content">
-            <h1>👋 Hi, It's <span>Rashid</span></h1>
-            <h3 class="text-animation"> here! <span></span></h3>
-            <p> I’m a passionate Front-End Developer 🌐 who loves bringing ideas to life with HTML 📝, CSS
-                🎨, <br> and JavaScript . I create clean, responsive designs <br> 📱💻 that provide users with seamless
-                experiences. When I’m not coding, you can find <br> me exploring new tech trends 🚀 or working on fun
-                side
-                projects <br> 💻✨. Let’s connect and build something amazing together! 🤝💻
+            <h1 style="
+              color: #ffffff; 
+              font-size: 3rem; 
+              text-align: center; 
+              font-weight: bold; 
+              background: linear-gradient(90deg, #FF7F50, #1E90FF); 
+              -webkit-background-clip: text; 
+              -webkit-text-fill-color: transparent; 
+              text-align: left;
+              text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3); 
+              margin-bottom: 20px;">
+                Hi, It's <span>Rashid</span>
+            </h1>
 
+            <p>
+                I'm a passionate Front-End Developer 🌐 who loves bringing ideas to life with HTML 📝, CSS 🎨, <br> and
+                JavaScript. I create clean, responsive designs <br> 📱💻 that provide users with seamless experiences.
+                When I'm not coding, you can find <br> me exploring new tech trends 🚀 or working on fun side projects
+                <br> 💻✨. Let's connect and build something amazing together! 🤝💻
+            </p>
+            <p>
+                I enjoy solving real-world problems with creative web solutions and constantly strive to improve my
+                skills 🔧. <br>
+                My goal is to craft intuitive designs and efficient code that make a lasting impact 🌟. <br>
+                Together, we can turn your vision into reality with innovative, user-centric designs! 🎯
             </p>
             <div class="social-icons">
                 <ul>
@@ -51,37 +68,64 @@
         </div>
     </section>
 
+    <section4 id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-container">
+            <div class="education-card">
+                <h3>High School Graduate</h3>
+                <p>Embellish School System, Karachi</p>
+                <p>Class of 2024</p>
+            </div>
+            <div class="education-card">
+                <h3>Currently Enrolled in 11th Grade</h3>
+                <p>Embellish School System, Karachi</p>
+                <p>Class of 2025</p>
+            </div>
+        </div>
+    </section4>
+
+
     <section2>
-        <h1 style="color: #ffffff; text-align: start; background-color: #0866FF;">My Services</h1>
+        <h1 id="Services">My Services</h1>
         <div class="services-container">
             <div class="service-card">
-                <h3>Web Design</h3>
-                <p>Creating visually appealing and responsive website designs.</p>
-                <button>View Projects</button>
+                <h3>Food Delivery Website</h3>
+                <p>Explore a Foodpanda clone showcasing a sleek, responsive design for online food delivery services.
+                    This project highlights user-friendly navigation and a modern interface.</p>
+                <button onclick="window.open('https://foodpandaclon.netlify.app/', '_blank')">View Projects</button>
             </div>
             <div class="service-card">
-                <h3>Front-End Development</h3>
-                <p>Building clean, functional, and interactive user interfaces.</p>
-                <button>View Projects</button>
+                <h3>Social Media Platform</h3>
+                <p>Check out a Facebook clone that replicates essential social media features with a clean and
+                    interactive user interface, <br>optimized for performance.</p>
+                <button onclick="window.open('https://facebokclon.netlify.app/', '_blank')">View Projects</button>
             </div>
             <div class="service-card">
-                <h3>Custom Projects</h3>
-                <p>Providing tailored solutions based on client requirements.</p>
-                <button>View Projects</button>
+                <h3>Vacation Rental Platform</h3>
+                <p>Dive into an Airbnb clone project designed to emulate the functionality and aesthetic of a property
+                    booking service, complete with a polished and responsive layout.</p>
+                <button onclick="window.open('https://arbnbclone.netlify.app/', '_blank')">View Projects</button>
+            </div>
+            <div class="service-card">
+                <h3>Freelance Service Platform</h3>
+                <p>Discover the Expertizo clone, a platform designed for connecting freelancers and clients. This
+                    project focuses on seamless navigation and a professional design aesthetic.</p>
+                <button onclick="window.open('https://expertizo-clo.netlify.app/', '_blank')">View Projects</button>
             </div>
         </div>
     </section2>
 
+
     <section3>
-        <div  class="contact-container">
-            <h1  >Contact Me</h1>
+        <div class="contact-container">
+            <h1>Contact Me</h1>
             <form action="#" method="post">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
 
                 <button type="submit">Send Message</button>
             </form>
-            <div  class="contact-info">
+            <div class="contact-info">
                 <p>Email: example@email.com</p>
                 <p id="contact">Phone: +1234567890</p>
             </div>
